@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:2x2 micro pad-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -343,7 +344,7 @@ U 1 1 5F706FE9
 P 2600 1450
 F 0 "SW1" H 2600 1735 50  0000 C CNN
 F 1 "SW_Push" H 2600 1644 50  0000 C CNN
-F 2 "" H 2600 1650 50  0001 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 2600 1650 50  0001 C CNN
 F 3 "~" H 2600 1650 50  0001 C CNN
 	1    2600 1450
 	1    0    0    -1  
@@ -415,7 +416,7 @@ U 1 1 5F71330A
 P 6700 1200
 F 0 "USB1" V 7237 1167 60  0000 C CNN
 F 1 "Molex-0548190589" V 7131 1167 60  0000 C CNN
-F 2 "" H 6700 1200 60  0001 C CNN
+F 2 "random-keyboard-parts:Molex-0548190589" H 6700 1200 60  0001 C CNN
 F 3 "" H 6700 1200 60  0001 C CNN
 	1    6700 1200
 	0    -1   -1   0   
@@ -583,5 +584,13 @@ COL1
 Text GLabel 6700 3350 0    50   Input ~ 0
 ROW0
 Text GLabel 6700 4100 0    50   Input ~ 0
+ROW1
+Text GLabel 4000 1950 2    50   Input ~ 0
+COL1
+Text GLabel 4000 2050 2    50   Input ~ 0
+COL0
+Text GLabel 4000 2350 2    50   Input ~ 0
+ROW0
+Text GLabel 4000 2450 2    50   Input ~ 0
 ROW1
 $EndSCHEMATC

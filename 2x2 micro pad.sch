@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:2x2 micro pad-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -583,5 +584,13 @@ COL1
 Text GLabel 6700 3350 0    50   Input ~ 0
 ROW0
 Text GLabel 6700 4100 0    50   Input ~ 0
+ROW1
+Text GLabel 4000 1950 2    50   Input ~ 0
+COL1
+Text GLabel 4000 2050 2    50   Input ~ 0
+COL0
+Text GLabel 4000 2350 2    50   Input ~ 0
+ROW0
+Text GLabel 4000 2450 2    50   Input ~ 0
 ROW1
 $EndSCHEMATC
